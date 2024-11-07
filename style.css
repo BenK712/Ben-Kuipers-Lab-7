@@ -1,0 +1,87 @@
+.transition-button:hover{
+    background-color: green;
+
+}
+.transition-button{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    transition: background-color .5s
+}
+
+.transition-div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    transition: width 1s;
+}
+.transition-div:hover{
+    width: 200px;
+}
+
+.transition-text{
+    font-size: 16px;
+    transition: font-size .3s;
+}
+.transition-text:hover{
+    font-size: 24px;
+}
+
+.transition-image{
+    width: 100px;
+    height: auto;
+    opacity: 1;
+    transition: opacity .8s;
+}
+.transition-image:hover{
+    opacity: .5;
+}
+
+.scale-div{
+    height: 100px;
+    width: 100px;
+    scale: 1;
+    background-color: rgb(128, 54, 54);
+    transition: scale
+}
+.scale-div:hover{
+    scale: 1.5;
+}
+
+.scale-image{
+    height: 100px;
+    width: auto;
+    scale: 1;
+    transition: scale
+}
+.scale-image:hover{
+    scale: .75;
+}
+
+.translate-button:hover{
+    transform: translate(50px,20px) ;
+}
+.translate-button{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.translate-div:hover{
+    transform: translate(-100px) ;
+}
+.translate-div{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.skew-heading:hover{
+   transform: skew(20deg); 
+}
+
+.skew-paragraph:hover{
+    transform: skewY(15deg); 
+ }
+
